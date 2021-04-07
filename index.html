@@ -1,54 +1,49 @@
-<html>
-
-<head><title>Coming soon...</title>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EZAccount.io</title>
+
+   <!-- favicon Start -->
+    <link rel="icon" href="images/logo.svg">
+   <!-- favicon end -->
+
+   <!-- Default Css file Start -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom JS file Start -->
+    
 
 </head>
-
 <body>
-    <div id="animation"></div>
-    <!-- PUT HERE YOUR LOGO, if you see that it's going to much central and you want to put the picture higher,
-then you need to go on line 40 css and change top: 50%; to a lower percentage and play alittle bit
-!-->
-    <div class="wrappicture">
-        <img src="EzAccountFinal-Long.png" height="200" width="550">
-    </div>
-    <div class="wrapper">
-        <div class="typed">
-            <h1><span id="anim"></span></h1>
-        </div>
-
-        <h3><span class="dot"></span></h3>
-        <br> <br> <!-- place between text and shoppy button !-->
-        <div class="icons">
-            <a href="https://shoppy.gg/@EzAccountio" target="_blank" >Autobuy</a>
-        </div>
-    </div>
-
-
-
-<div id="particles-js"></div>
-<script src="particles.js"></script>
-
-    <script type="module">
-        import Typed from './typed.js';
-        var typed = new Typed('#anim', {
-            strings: [
-                'Revolution is right around the corner',
-                'EzAccount.io',
-                'Coming soon...'
-            ],
-            /* change here the speed of the typing */
-            typeSpeed: 60,
-            backSpeed: 40,
-            loop: true
-        })
-    </script>
+   
+   <!-- main section start -->
+   <section class="main_section" id="particles-js">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-lg-6">
+                   <div class="context_txt">
+                       <img src="images/finallogo.png" alt="logo" class="img-fluid">
+                       <h2>Coming Soon</h2>
+                       <p>Revolution is right around the corner</p>
+                           <div class="form-group">
+                               <a href="https://shoppy.gg/@EzAccountio"><button type="button" class="btn btn_custom">AutoBuy</button></a>
+                               
+                           </div>
+                           <a href="https://t.me/EzAccount"><button type="button" class="btn btn_custom2">Join Telegram</button></a>
+                       <h6>Copyright &copy; Al Rights Reserved EZ Account</h6>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- main section end -->
+   <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/particles.min.js"></script>
 </body>
-
-
-
-
 </html>
